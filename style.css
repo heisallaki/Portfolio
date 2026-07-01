@@ -20,48 +20,106 @@ body{
     color:white;
 }
 
-/* Navigation */
+/* ==========================
+   Navigation
+========================== */
+
 nav{
+
+    position:sticky;
+    top:0;
+
     display:flex;
     justify-content:space-between;
     align-items:center;
 
     padding:20px 10%;
 
-    background:#111827;
+    background:rgba(17,24,39,.75);
+
+    backdrop-filter:blur(12px);
+
+    border-bottom:1px solid rgba(255,255,255,.08);
+
+    z-index:1000;
 }
 
 .logo{
+
     font-size:2rem;
+
     font-weight:700;
+
     letter-spacing:2px;
-    color:#ffffff;
+
+    color:white;
+
     cursor:pointer;
+
+    user-select:none;
+
     transition:.3s;
-    
 }
 
 .logo span{
+
     color:#60a5fa;
 }
+
 .logo:hover{
-    color:#60a5fa;
+
+    transform:scale(1.08);
 }
 
-nav ul{
+.nav-links{
+
     display:flex;
+
     list-style:none;
-    gap:30px;
+
+    gap:40px;
 }
 
-nav a{
-    text-decoration:none;
+.nav-links a{
+
     color:white;
+
+    text-decoration:none;
+
+    font-weight:500;
+
+    position:relative;
+
     transition:.3s;
 }
 
-nav a:hover{
+.nav-links a::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+
+    bottom:-6px;
+
+    width:0;
+
+    height:2px;
+
+    background:#60a5fa;
+
+    transition:.3s;
+}
+
+.nav-links a:hover{
+
     color:#60a5fa;
+}
+
+.nav-links a:hover::after{
+
+    width:100%;
 }
 
 /* Hero Section */

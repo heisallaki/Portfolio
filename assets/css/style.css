@@ -1,6 +1,52 @@
 /* Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
+/* ==========================
+   Design System
+========================== */
+
+:root{
+
+    /* Colors */
+
+    --primary:#60A5FA;
+
+    --secondary:#8B5CF6;
+
+    --background:#0F172A;
+
+    --surface:rgba(255,255,255,.05);
+
+    --surface-border:rgba(255,255,255,.08);
+
+    --text:#FFFFFF;
+
+    --text-light:#CBD5E1;
+
+    /* Typography */
+
+    --font:'Poppins',sans-serif;
+
+    /* Radius */
+
+    --radius:20px;
+
+    --radius-large:30px;
+
+    --radius-pill:50px;
+
+    /* Shadows */
+
+    --shadow:
+
+    0 20px 40px rgba(0,0,0,.30);
+
+    /* Transition */
+
+    --transition:.35s ease;
+
+}
+
 /* Reset */
 *{
     margin:0;
@@ -26,9 +72,9 @@ body{
     rgba(59,130,246,.15),
     transparent 30%),
 
-    #0f172a;
+    var(--background);
 
-    color:white;
+    color:var(--text);
 
     overflow-x:hidden;
 }
@@ -52,7 +98,7 @@ nav{
 
     backdrop-filter:blur(12px);
 
-    border-bottom:1px solid rgba(255,255,255,.08);
+    border-bottom:1px solid var(--surface-border);
 
     z-index:1000;
 }
@@ -65,7 +111,7 @@ nav{
 
     letter-spacing:2px;
 
-    color:white;
+    color:var(--text);
 
     cursor:pointer;
 
@@ -76,7 +122,7 @@ nav{
 
 .logo span{
 
-    color:#60a5fa;
+    color:var(--primary);
 }
 
 .logo:hover{
@@ -95,7 +141,7 @@ nav{
 
 .nav-links a{
 
-    color:white;
+    color:var(--text);
 
     text-decoration:none;
 
@@ -120,14 +166,14 @@ nav{
 
     height:2px;
 
-    background:#60a5fa;
+    background:var(--primary);
 
     transition:.3s;
 }
 
 .nav-links a:hover{
 
-    color:#60a5fa;
+    color:var(--primary);
 }
 
 .nav-links a:hover::after{
@@ -202,8 +248,8 @@ nav{
 
     background:linear-gradient(
         90deg,
-        #60a5fa,
-        #8b5cf6
+        var(--primary),
+        var(--secondary)
     );
 
     -webkit-background-clip:text;
@@ -224,47 +270,44 @@ nav{
 
 .btn{
 
-    display:inline-block;
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:10px;
 
     text-decoration:none;
 
     padding:18px 38px;
 
-    border-radius:50px;
+    border-radius:var(--radius-pill);
 
-    background:linear-gradient(
-        90deg,
-        #8b5cf6,
-        #2563eb
+    background:
+
+    linear-gradient(
+    90deg,
+    var(--secondary),
+    var(--primary)
     );
 
-    color:white;
+    color:var(--text);
 
     font-weight:600;
 
-    transition:.35s;
+    transition:var(--transition);
+
+    box-shadow:0 10px 30px rgba(96,165,250,.15);
 }
 
 .btn:hover{
 
     transform:
-    translateY(-4px)
-    scale(1.03);
+    translateY(-4px);
 
     box-shadow:
-    0 10px 25px
-    rgba(37,99,235,.35);
-}
-
-.hero-image{
-
-    flex:1;
-
-    display:flex;
-
-    justify-content:center;
-
-    align-items:center;
+    0 15px 40px rgba(96,165,250,.30);
 }
 
 .hero-image img{
@@ -277,7 +320,7 @@ nav{
 
     border-radius:50%;
 
-    border:5px solid rgba(255,255,255,.08);
+    border:5px solid var(--surface-border);
 
     box-shadow:
         0 0 45px rgba(96,165,250,.20);
@@ -337,7 +380,7 @@ nav{
 
 .socials a:hover{
 
-    color:#60a5fa;
+    color:var(--primary);
 }
 
 @media (max-width:900px){
@@ -380,4 +423,165 @@ nav{
         justify-content:center;
     }
 
+    .about-container{
+
+    grid-template-columns:1fr;
+
+    text-align:center;
+}
+
+}
+
+/* ==========================
+   About Section
+========================== */
+
+#about{
+
+    padding:120px 10%;
+}
+
+.section-title{
+
+    text-align:center;
+
+    margin-bottom:70px;
+}
+
+.section-title h2{
+
+    font-size:2.5rem;
+
+    margin-bottom:15px;
+}
+
+.title-line{
+
+    width:80px;
+
+    height:4px;
+
+    background:var(--primary);
+
+    margin:auto;
+
+    border-radius:10px;
+}
+
+.about-container{
+
+    display:grid;
+
+    grid-template-columns:2fr 1fr;
+
+    gap:60px;
+
+    align-items:center;
+}
+
+.about-text p{
+
+    line-height:2;
+
+    color:#d1d5db;
+
+    margin-bottom:40px;
+}
+
+.about-info{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:20px;
+}
+
+.info-card{
+
+    background:var(--surface);
+
+    border:1px solid var(--surface-border);
+
+    padding:22px;
+
+    border-radius:18px;
+
+    transition:.3s;
+}
+
+.info-card i{
+
+    color:var(--primary);
+
+    margin-right:12px;
+
+    width:22px;
+
+    text-align:center;
+}
+
+.info-card:hover{
+
+    transform:translateY(-6px);
+
+    border-color:var(--primary);
+}
+
+/* ==========================
+   Tech Stack
+========================== */
+
+#skills{
+
+    padding:120px 10%;
+}
+
+.skills-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+    gap:30px;
+}
+
+.skill-card{
+
+    background:var(--surface);
+
+    border:1px solid var(--surface-border);
+
+    border-radius:20px;
+
+    padding:35px;
+
+    transition:.35s;
+
+    backdrop-filter:blur(15px);
+}
+
+.skill-card:hover{
+
+    transform:translateY(-10px);
+
+    border-color:var(--primary);
+
+    box-shadow:0 20px 40px rgba(0,0,0,.3);
+}
+
+.skill-card h3{
+
+    margin-bottom:15px;
+
+    font-size:1.3rem;
+
+    color:var(--primary);
+}
+
+.skill-card p{
+
+    color:#cbd5e1;
+
+    line-height:1.8;
 }

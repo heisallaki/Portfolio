@@ -53,8 +53,8 @@ Portfolio/
 │   ├── js/
 │   ├── images/
 │   ├── icons/
-│   ├── resume/
-│   └── certificates/
+│   └── resume/
+│  
 │
 ├── index.html
 ├── 404.html

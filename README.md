@@ -58,8 +58,9 @@ Portfolio/
 │
 ├── index.html
 ├── 404.html
-├──README.md
-└──CHANGELOG.md
+├── LICENSE
+├── README.md
+└── CHANGELOG.md
 ```
 
 ---

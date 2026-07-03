@@ -46,7 +46,7 @@ Built with performance, accessibility, and clean design in mind, this portfolio 
 ## 📂 Project Structure
 
 ```
-PortfolioWebsite/
+Portfolio/
 │
 ├── assets/
 │   ├── css/
@@ -58,7 +58,8 @@ PortfolioWebsite/
 │
 ├── index.html
 ├── 404.html
-└── README.md
+├──README.md
+└──CHANGELOG.md
 ```
 
 ---
@@ -66,8 +67,8 @@ PortfolioWebsite/
 ## 💻 Run Locally
 
 ```bash
-git clone https://github.com/heisallaki/PortfolioWebsite.git
-cd PortfolioWebsite
+git clone https://github.com/heisallaki/Portfolio.git
+cd Portfolio
 ```
 
 Open `index.html` in your browser, or run the project using VS Code Live Server.

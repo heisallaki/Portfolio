@@ -13,10 +13,6 @@
 
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <link
-rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-
 <link rel="icon" type="image/png" href="assets/icons/favicon.png">
 <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
 
@@ -25,25 +21,38 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
 <body>
 
     <!-- Navigation -->
-    <nav>
+<nav>
 
     <a href="#hero" class="logo">
         <span>K</span>A<span>L</span>
     </a>
 
-    <ul class="nav-links">
+    <div class="menu-toggle" id="menu-toggle">
+    <i class="fa-solid fa-bars" id="menu-icon"></i>
+</div>
+
+    <ul class="nav-links" id="nav-links">
 
         <li><a href="#hero">Home</a></li>
-<li><a href="#about">About</a></li>
-<li><a href="#projects">Projects</a></li>
-<li><a href="#journey">Journey</a></li>
-<li><a href="#certifications">Certifications</a></li>
-<li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#journey">Journey</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+
+        <!-- Mobile CV Button -->
+        <li class="mobile-cv">
+            <a href="assets/documents/Alvin_Kipngeno_Langat_Resume.pdf" download>
+                Download CV
+            </a>
+        </li>
 
     </ul>
 
+    <!-- Desktop CV Button -->
     <a href="assets/documents/Alvin_Kipngeno_Langat_Resume.pdf"
-       class="nav-btn"
+       class="nav-btn desktop-cv"
        download>
 
         Download CV
@@ -53,7 +62,8 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
 </nav>
 
     <!-- Hero Section -->
-    <section id="hero">
+    <section id="hero" class="section">
+
 
     <div class="hero-content">
 
@@ -94,9 +104,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
 
 </section>
 
-<section id="about">
-
-    <section id="about" class="reveal"></section>
+<section id="about" class="section reveal">
 
     <div class="section-title">
         <h2>About Me</h2>
@@ -111,8 +119,13 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
                 I build software that connects technology with real business needs. My focus is on creating practical, user-friendly applications while continuously expanding my expertise in software development, business systems, and modern technologies. I believe the best solutions are those that are simple, reliable, and genuinely useful.
             </p>
 
-            <a href="#" class="btn">
+            <a
+            href="assets/documents/Alvin_Kipngeno_Langat_Resume.pdf"
+            class="btn"
+            download>
+
                 Download CV
+
             </a>
 
         </div>
@@ -144,9 +157,7 @@ Business Information Technology
 
 </section>
 
-<section id="projects">
-
-    <section id="projects" class="reveal"></section>
+<section id="projects" class="section reveal">
 
     <div class="section-title">
 
@@ -236,9 +247,7 @@ Business Information Technology
 
 </section>
 
-<section id="journey" class="section">
-
-    <section id="journey" class="reveal"></section>
+<section id="journey" class="section reveal">
 
     <div class="section-title">
 
@@ -398,9 +407,7 @@ Business Information Technology
 
 </section>
 
-<section id="certifications" class="section">
-
-    <section id="certifications" class="reveal"></section>
+<section id="certifications" class="section reveal">
 
     <div class="section-title">
 
@@ -463,9 +470,7 @@ Business Information Technology
 
 </section>
 
-<section id="skills" class="section">
-
-    <section id="skills" class="reveal"></section>
+<section id="skills" class="section reveal">
 
     <div class="section-title">
         <h2>Tech Stack</h2>
@@ -518,9 +523,7 @@ Business Information Technology
 
 </section>
 
-<section id="contact" class="section">
-
-    <section id="contact" class="reveal"></section>
+<section id="contact" class="section reveal">
 
     <div class="section-title">
 

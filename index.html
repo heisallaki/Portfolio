@@ -185,63 +185,101 @@ Business Information Technology
 
         <article class="project-card">
 
-            <div class="project-image">
+    <div
+    class="project-image project-gallery-trigger"
+    data-gallery="smart-inventory"
+    role="button"
+    tabindex="0"
+    aria-label="Open Smart Inventory System screenshot gallery">
 
-                Project Preview
+        <img
+        class="project-gallery-cover"
+        src=""
+        alt="">
 
-            </div>
+        <span class="project-image-placeholder">
+            Project Preview
+        </span>
 
-            <div class="project-content">
+        <div class="project-image-overlay">
 
-                <div class="project-status">
+            <i class="fa-solid fa-images"></i>
 
-                    <span class="status-dot"></span>
+            <span>View Screenshots</span>
 
-                    In Development
+        </div>
 
-                </div>
+        <span class="project-image-count">
 
-                <h3>
+            <i class="fa-regular fa-images"></i>
 
-                    Smart Inventory System
+            <span class="project-image-count-value"></span>
 
-                </h3>
+        </span>
 
-                <p>
+    </div>
 
-                    A modern inventory management platform designed to
-                    simplify stock tracking, product management,
-                    reporting, and business operations.
+    <div class="project-content">
 
-                </p>
+        <div class="project-status is-completed">
 
-                <div class="project-tags">
+            <span class="status-dot"></span>
 
-                    <span>HTML</span>
+            Completed
 
-                    <span>CSS</span>
+        </div>
 
-                    <span>JavaScript</span>
+        <h3>
 
-                </div>
+            Smart Inventory System
 
-                <div class="project-buttons">
+        </h3>
 
-                    <a
-    href="https://github.com/heisallaki/SmartInventorySystem"
-    target="_blank"
-    rel="noopener noreferrer"
-    class="secondary-btn">
+        <p>
 
-    GitHub
+            A modern inventory management platform designed to
+            simplify stock tracking, product management,
+            reporting, and business operations.
+
+        </p>
+
+        <div class="project-tags">
+
+            <span>HTML</span>
+
+            <span>CSS</span>
+
+            <span>JavaScript</span>
+
+        </div>
+
+        <div class="project-buttons">
+
+            
+href="https://github.com/heisallaki/SmartInventorySystem"
+target="_blank"
+rel="noopener noreferrer"
+class="secondary-btn">
+
+GitHub
 
 </a>
 
-                </div>
+            <button
+            type="button"
+            class="primary-btn project-gallery-trigger"
+            data-gallery="smart-inventory">
 
-            </div>
+                <i class="fa-solid fa-images"></i>
+                View Screenshots
 
-        </article>
+            </button>
+
+        </div>
+
+    </div>
+
+</article>
 
     </div>
 
@@ -647,6 +685,64 @@ Portfolio v1.0.1
 <button id="scrollTopBtn" aria-label="Back to top">
     <i class="fa-solid fa-arrow-up"></i>
 </button>
+
+<div class="gallery-lightbox" id="galleryLightbox" aria-hidden="true">
+
+    <div class="gallery-lightbox-inner">
+
+        <button
+        type="button"
+        class="gallery-lightbox-close"
+        id="galleryLightboxClose"
+        aria-label="Close gallery">
+
+            <i class="fa-solid fa-xmark"></i>
+
+        </button>
+
+        <div class="gallery-lightbox-frame">
+
+            <button
+            type="button"
+            class="gallery-lightbox-arrow gallery-lightbox-prev"
+            id="galleryLightboxPrev"
+            aria-label="Previous screenshot">
+
+                <i class="fa-solid fa-chevron-left"></i>
+
+            </button>
+
+            <div class="gallery-lightbox-track" id="galleryLightboxTrack">
+
+            </div>
+
+            <button
+            type="button"
+            class="gallery-lightbox-arrow gallery-lightbox-next"
+            id="galleryLightboxNext"
+            aria-label="Next screenshot">
+
+                <i class="fa-solid fa-chevron-right"></i>
+
+            </button>
+
+        </div>
+
+        <div class="gallery-lightbox-caption">
+
+            <span class="gallery-lightbox-title" id="galleryLightboxTitle"></span>
+
+            <span id="galleryLightboxCounter"></span>
+
+        </div>
+
+        <div class="gallery-lightbox-dots" id="galleryLightboxDots">
+
+        </div>
+
+    </div>
+
+</div>
 
  <script src="assets/js/script.js"></script>
 

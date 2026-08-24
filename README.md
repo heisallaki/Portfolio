@@ -53,7 +53,7 @@ Portfolio/
 │   ├── js/
 │   ├── images/
 │   ├── icons/
-│   └── resume/
+│   └── documents/
 │  
 │
 ├── index.html

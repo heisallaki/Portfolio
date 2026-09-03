@@ -97,6 +97,24 @@ const projectGalleries = {
             "smart-inventory-20.jpg",
             "smart-inventory-21.jpg"
         ]
+    },
+    "forex-ai-analyst": {
+        title: "Forex AI Analyst",
+        folder: "assets/images/projects/forex-ai-analyst/",
+        images: [
+            "forex-ai-analyst-01.jpg",
+            "forex-ai-analyst-02.jpg",
+            "forex-ai-analyst-03.jpg",
+            "forex-ai-analyst-04.jpg",
+            "forex-ai-analyst-05.jpg",
+            "forex-ai-analyst-06.jpg",
+            "forex-ai-analyst-07.jpg",
+            "forex-ai-analyst-08.jpg",
+            "forex-ai-analyst-09.jpg",
+            "forex-ai-analyst-10.jpg",
+            "forex-ai-analyst-11.jpg",
+            "forex-ai-analyst-12.jpg"
+        ]
     }
 };
 

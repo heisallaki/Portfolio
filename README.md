@@ -1,20 +1,15 @@
-# 🌐 Alvin Kipng'eno Langat | Portfolio Website
-
-A modern, responsive portfolio website showcasing my software development projects, professional experience, certifications, and technical skills.
-
-Built with performance, accessibility, and clean design in mind, this portfolio serves as my professional online presence and will continue evolving as I grow my experience and projects.
-
----
-
-## 📸 Preview
-
 ![Portfolio Preview](assets/images/portfolio-preview.png)
 
 ---
 
-## 🚀 Live Website
+# 🌐 Alvin Kipng'eno Langat | Portfolio Website
 
-**Visit:** https://heisallaki.github.io/Portfolio/
+My professional portfolio website, live at ****[heisallaki.github.io/Portfolio](https://heisallaki.github.io/Portfolio/)****.
+
+
+A modern, responsive portfolio website showcasing my software development projects, professional experience, certifications, and technical skills.
+
+Built with performance, accessibility, and clean design in mind, this portfolio serves as my professional online presence and will continue evolving as I grow my experience and projects.
 
 ---
 

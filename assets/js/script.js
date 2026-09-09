@@ -98,6 +98,7 @@ const projectGalleries = {
             "smart-inventory-21.jpg"
         ]
     },
+    
     "forex-ai-analyst": {
         title: "Forex AI Analyst",
         folder: "assets/images/projects/forex-ai-analyst/",
@@ -115,7 +116,31 @@ const projectGalleries = {
             "forex-ai-analyst-11.jpg",
             "forex-ai-analyst-12.jpg"
         ]
-    }
+    },
+
+    "raw-feed": {
+
+        title: "RawFeed",
+
+        folder: "assets/images/projects/raw-feed/",
+
+        images: [
+
+            "raw-feed-01.png",
+
+            "raw-feed-02.png",
+
+            "raw-feed-03.png",
+
+            "raw-feed-04.png",
+
+            "raw-feed-05.png",
+
+            "raw-feed-06.png"
+
+        ]
+
+    },
 };
 
 function initGalleryTriggers() {

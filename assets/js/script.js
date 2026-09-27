@@ -98,7 +98,20 @@ const projectGalleries = {
             "smart-inventory-21.jpg"
         ]
     },
-    
+
+    "the-polished-co": {
+        title: "The Polished Co. Ke",
+        folder: "assets/images/projects/the-polished-co/",
+        images: [
+            "the-polished-co-01.png",
+            "the-polished-co-02.png",
+            "the-polished-co-03.png",
+            "the-polished-co-04.png",
+            "the-polished-co-05.png",
+            "the-polished-co-06.png"
+        ]
+    },
+
     "forex-ai-analyst": {
         title: "Forex AI Analyst",
         folder: "assets/images/projects/forex-ai-analyst/",

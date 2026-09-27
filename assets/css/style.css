@@ -1291,7 +1291,8 @@ nav ul{
     }
 
     .project-buttons .secondary-btn,
-    .project-buttons .primary-btn{
+    .project-buttons .primary-btn,
+    .project-buttons .live-btn{
 
         width:100%;
     }
@@ -1366,6 +1367,46 @@ nav ul{
 }
 
 .primary-btn:hover{
+
+    box-shadow:0 14px 34px rgba(96,165,250,.28);
+}
+
+.live-btn{
+
+    display:inline-flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:10px;
+
+    text-decoration:none;
+
+    padding:18px 38px;
+
+    border-radius:var(--radius-pill);
+
+    border:1px solid var(--primary);
+
+    background:rgba(96,165,250,.12);
+
+    color:var(--primary);
+
+    font-family:var(--font);
+
+    font-size:1rem;
+
+    font-weight:600;
+
+    transition:var(--transition);
+}
+
+.live-btn:hover{
+
+    background:var(--primary);
+
+    color:var(--background);
 
     box-shadow:0 14px 34px rgba(96,165,250,.28);
 }

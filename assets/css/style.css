@@ -579,14 +579,6 @@ nav{
 
     }
 
-    .about-container{
-
-        grid-template-columns:1fr;
-
-        text-align:center;
-
-    }
-
     /* ---------- Mobile Navigation ---------- */
 
     .menu-toggle {
@@ -782,6 +774,25 @@ nav ul{
     transform:translateY(-6px);
 
     border-color:var(--primary);
+}
+
+@media (max-width:900px){
+
+    .about-container{
+
+        grid-template-columns:1fr;
+
+        text-align:center;
+    }
+
+    .about-info{
+
+        display:grid;
+
+        grid-template-columns:1fr 1fr;
+
+        gap:20px;
+    }
 }
 
 /* ==========================

@@ -18,7 +18,6 @@ Built with performance, accessibility, and clean design in mind, this portfolio 
 - Scroll reveal animations
 - Professional Journey
 - Certifications
-- Downloadable CV
 - Contact section
 - Custom 404 page
 - SEO-friendly metadata

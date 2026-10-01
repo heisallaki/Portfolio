@@ -188,6 +188,18 @@ nav{
 
 }
 
+@media (min-width:901px){
+
+    .nav-links{
+
+        position:absolute;
+
+        left:50%;
+
+        transform:translateX(-50%);
+    }
+}
+
 .nav-links a{
 
     color:var(--text);

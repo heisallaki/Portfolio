@@ -99,7 +99,7 @@ const projectGalleries = {
         ]
     },
 
-    "the-polished-co": {
+        "the-polished-co": {
         title: "The Polished Co. Ke",
         folder: "assets/images/projects/the-polished-co/",
         images: [
@@ -109,6 +109,25 @@ const projectGalleries = {
             "the-polished-co-04.png",
             "the-polished-co-05.png",
             "the-polished-co-06.png"
+        ]
+    },
+
+    "study-assistant-ai": {
+        title: "StudyAssistant AI",
+        folder: "assets/images/projects/study-assistant-ai/",
+        images: [
+            "study-assistant-ai-01.png",
+            "study-assistant-ai-02.png",
+            "study-assistant-ai-03.png",
+            "study-assistant-ai-04.png",
+            "study-assistant-ai-05.png",
+            "study-assistant-ai-06.png",
+            "study-assistant-ai-07.png",
+            "study-assistant-ai-08.png",
+            "study-assistant-ai-09.png",
+            "study-assistant-ai-10.png",
+            "study-assistant-ai-11.png",
+            "study-assistant-ai-12.png"
         ]
     },
 

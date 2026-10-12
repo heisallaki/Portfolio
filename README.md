@@ -2,7 +2,7 @@
 
 ---
 
-# 🌐 Alvin Kipng'eno Langat | Portfolio Website
+# 🌐 Alvin K. Langat | Portfolio Website
 
 A modern, responsive portfolio website showcasing my software development projects, professional experience, certifications, and technical skills.
 
@@ -88,6 +88,6 @@ This project is licensed under the MIT License.
 
 ## 👨‍💻 Author
 
-**Alvin Kipng'eno Langat**
+**Alvin K. Langat**
 
 Software Developer | Business Technology Enthusiast

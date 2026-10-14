@@ -80,9 +80,14 @@ alvinlangat.al@gmail.com
 
 ---
 
-## 📄 License
 
-Proprietary License · All Rights Reserved
+## License
+
+**Proprietary License · All Rights Reserved**
+
+Copyright © 2026 Alvin K. Langat. All rights reserved.
+
+See the [`LICENSE`](LICENSE) file for the full copyright notice and usage restrictions.
 
 ---
 

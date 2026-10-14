@@ -82,7 +82,7 @@ alvinlangat.al@gmail.com
 
 ## 📄 License
 
-This project is licensed under the MIT License.
+Proprietary License · All Rights Reserved
 
 ---
 

@@ -4,7 +4,7 @@
 
 # 🌐 Alvin K. Langat | Portfolio Website
 
-A modern, responsive portfolio website showcasing my software development projects, professional experience, certifications, and technical skills.
+A modern, responsive portfolio website showcasing my projects, professional experience, certifications, and technical skills.
 
 Built with performance, accessibility, and clean design in mind, this portfolio serves as my professional online presence and will continue evolving as I grow my experience and projects.
 
@@ -95,4 +95,4 @@ See the [`LICENSE`](LICENSE) file for the full copyright notice and usage restri
 
 **Alvin K. Langat**
 
-Software Developer | Business Technology Enthusiast
+IT & Business Specialist

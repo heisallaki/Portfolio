@@ -131,6 +131,28 @@ const projectGalleries = {
         ]
     },
 
+    "allaki-lensed-it": {
+        title: "Allaki Lensed It",
+        folder: "assets/images/projects/allaki-lensed-it/",
+        images: [
+            "allaki-lensed-it-01.png",
+            "allaki-lensed-it-02.png",
+            "allaki-lensed-it-03.png",
+            "allaki-lensed-it-04.png",
+            "allaki-lensed-it-05.png",
+            "allaki-lensed-it-06.png",
+            "allaki-lensed-it-07.png",
+            "allaki-lensed-it-08.png",
+            "allaki-lensed-it-09.png",
+            "allaki-lensed-it-10.png",
+            "allaki-lensed-it-11.png",
+            "allaki-lensed-it-12.png",
+            "allaki-lensed-it-13.png",
+            "allaki-lensed-it-14.png",
+            "allaki-lensed-it-15.png"
+        ]
+    },
+
     "forex-ai-analyst": {
         title: "Forex AI Analyst",
         folder: "assets/images/projects/forex-ai-analyst/",

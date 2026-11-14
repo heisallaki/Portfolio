@@ -2,13 +2,15 @@
 
 ---
 
+
 # 🌐 Alvin K. Langat | Portfolio Website
 
 A modern, responsive portfolio website showcasing my projects, professional experience, certifications, and technical skills.
 
-Built with performance, accessibility, and clean design in mind, this portfolio serves as my professional online presence and will continue evolving as I grow my experience and projects.
+This portfolio serves as my professional online presence and will continue evolving as I grow my experience and projects.
 
 ---
+
 
 ## ✨ Features
 
@@ -24,6 +26,7 @@ Built with performance, accessibility, and clean design in mind, this portfolio 
 
 ---
 
+
 ## 🛠 Technologies
 
 - HTML5
@@ -33,6 +36,7 @@ Built with performance, accessibility, and clean design in mind, this portfolio 
 - Git & GitHub
 
 ---
+
 
 ## 📂 Project Structure
 
@@ -56,18 +60,8 @@ Portfolio/
 
 ---
 
-## 💻 Run Locally
 
-```bash
-git clone https://github.com/heisallaki/Portfolio.git
-cd Portfolio
-```
-
-Open `index.html` in your browser, or run the project using VS Code Live Server.
-
----
-
-## 🤝 Connect
+## 🫱🏾‍🫲🏻 Connect
 
 **LinkedIn**  
 https://www.linkedin.com/in/alvin-langat
